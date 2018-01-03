@@ -2,7 +2,7 @@ import React from "react";
 
 const LoadingView = () => <div>Loading...</div>;
 
-const ErrorView = () => <div>I'm sorry! Please try again.</div>;
+const ErrorView = () => <div>`I'm sorry! Please try again.`</div>;
 
 const PlanetView = ({ name, climate, terrain }) => (
   <div>
